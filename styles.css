@@ -363,192 +363,228 @@ body {
     height: 5px;
     background-color: #ffffff;
     border-radius: 50%;
-    animation: twinkling 3s infinite;
 }
 
 .star:nth-child(1) {
     top: 50px;
     left: 50px;
+    animation: twinkling 5s infinite;
 }
 
 .star:nth-child(2) {
     top: 100px;
     left: 70px;
+    animation: twinkling 5.5s infinite;
 }
 
 .star:nth-child(3) {
     top: 150px;
     left: 65px;
+    animation: twinkling 4.8s infinite;
 }
 
 .star:nth-child(4) {
     top: 200px;
     left: 40px;
+    animation: twinkling 4.9s infinite;
 }
 
 .star:nth-child(5) {
     top: 90px;
     left: 100px;
+    animation: twinkling 5s infinite;
 }
 
 .star:nth-child(6) {
     top: 110px;
     left: 130px;
+    animation: twinkling 5.3s infinite;
 }
 
 .star:nth-child(7) {
     top: 30px;
     left: 150px;
+    animation: twinkling 5.4s infinite;
 }
 
 .star:nth-child(8) {
     top: 80px;
     left: 160px;
+    animation: twinkling 4.9s infinite;
 }
 
 .star:nth-child(9) {
     top: 160px;
     left: 150px;
+    animation: twinkling 4.8s infinite;
 }
 
 .star:nth-child(10) {
     top: 220px;
     left: 210px;
+    animation: twinkling 5.5s infinite;
 }
 
 .star:nth-child(11) {
     top: 180px;
     left: 230px;
+    animation: twinkling 5.3s infinite;
 }
 
 .star:nth-child(12) {
     top: 100px;
     left: 240px;
+    animation: twinkling 4.9s infinite;
 }
 
 .star:nth-child(13) {
     top: 60px;
     left: 270px;
+    animation: twinkling 4.7s infinite;
 }
 
 .star:nth-child(14) {
     top: 130px;
     left: 320px;
+    animation: twinkling 4.7s infinite;
 }
 
 .star:nth-child(15) {
     top: 160px;
     left: 360px;
+    animation: twinkling 5.2s infinite;
 }
 
 .star:nth-child(16) {
     top: 150px;
     left: 280px;
+    animation: twinkling 5.3s infinite;
 }
 
 .star:nth-child(17) {
     top: 50px;
     left: 390px;
+    animation: twinkling 5s infinite;
 }
 
 .star:nth-child(18) {
     top: 100px;
     left: 400px;
+    animation: twinkling 4.8s infinite;
 }
 
 .star:nth-child(19) {
     top: 170px;
     left: 410px;
+    animation: twinkling 5s infinite;
 }
 
 .star:nth-child(20) {
     top: 80px;
     left: 440px;
+    animation: twinkling 5s infinite;
 }
 
 .star:nth-child(21) {
     top: 120px;
     left: 470px;
+    animation: twinkling 5.4s infinite;
 }
 
 .star:nth-child(22) {
     top: 170px;
     left: 500px;
+    animation: twinkling 5.2s infinite;
 }
 
 .star:nth-child(23) {
     top: 30px;
     left: 550px;
+    animation: twinkling 4.6s infinite;
 }
 
 .star:nth-child(24) {
     top: 70px;
     left: 530px;
+    animation: twinkling 4.9s infinite;
 }
 
 .star:nth-child(25) {
     top: 110px;
     left: 530px;
+    animation: twinkling 5.5s infinite;
 }
 
 .star:nth-child(26) {
     top: 40px;
     left: 700px;
+    animation: twinkling 5.4s infinite;
 }
 
 .star:nth-child(27) {
     top: 60px;
     left: 650px;
+    animation: twinkling 4.9s infinite;
 }
 
 .star:nth-child(28) {
     top: 100px;
     left: 600px;
+    animation: twinkling 4.8s infinite;
 }
 
 .star:nth-child(29) {
     top: 150px;
     left: 590px;
+    animation: twinkling 4.7s infinite;
 }
 
 .star:nth-child(30) {
     top: 210px;
     left: 600px;
+    animation: twinkling 5.3s infinite;
 }
 
 .star:nth-child(31) {
     top: 240px;
     left: 650px;
+    animation: twinkling 5.2s infinite;
 }
 
 .star:nth-child(32) {
     top: 250px;
     left: 730px;
+    animation: twinkling 4.6s infinite;
 }
 
 .star:nth-child(33) {
     top: 230px;
     left: 760px;
+    animation: twinkling 5.1s infinite;
 }
 
 .star:nth-child(34) {
     top: 180px;
     left: 770px;
+    animation: twinkling 4.8s infinite;
 }
 
 .star:nth-child(35) {
     top: 130px;
     left: 770px;
+    animation: twinkling 4.9s infinite;
 }
 
 .star:nth-child(36) {
     top: 150px;
     left: 710px;
+    animation: twinkling 5.5s infinite;
 }
 
 .star:nth-child(37) {
     top: 130px;
     left: 830px;
+    animation: twinkling 4.3s infinite;
 }
 
 @keyframes twinkling {
@@ -562,5 +598,11 @@ body {
 
     100% {
         opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    body{
+        min-height: 194vh;
     }
 }
